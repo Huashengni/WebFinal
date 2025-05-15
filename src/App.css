@@ -1,0 +1,46 @@
+
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  transition: background-color 0.5s ease;
+  font-family: sans-serif;
+}
+
+.app-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.red-button {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.red-button:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 2em #ff6464aa);
+}
+
+.reset-button {
+  background-color: darkred;
+}
